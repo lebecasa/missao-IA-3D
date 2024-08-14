@@ -6,40 +6,36 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Pergunta 1",
+        enunciado: "O que são mitos?",
         alternativas: [
             {
-                texto: "Alternativa 1 da pergunta 1",
+                texto: "é uma narrativa fantástica que possui o objetivo de explicar a origem de tudo aquilo que existe e é considerado importante para um determinado povo.",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "de fato povos tradicionais costumavam criar os ditos mitos para explicar tais acontecimentos “inexplicáveis”, pois naqueles tempos a ciência não era um método utilizado frequentemente."
                     ]
             },
             {
-                texto: "Alternativa 2 da pergunta 1",
+                texto: "são estados mentais em que se assume que algo é verdadeiro ou provável. Elas são expressas linguisticamente por meio de afirmações.",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "errado essa é a definição de crença."
                     ]
             }           
             
         ]
     },
     {
-        enunciado: "Pergunta 2",
+        enunciado: "Qual a importância do folclore na cultura brasileira?",
         alternativas: [
             {
-                texto:"Alternativa 1 da pergunta 2",
+                texto:"é um meio de aproximação entre os povos e grupos sociais e de afirmação de sua identidade cultural.",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "Apesar de não ser uma resposta completamente errada, é bom lembrar de que o folclore foi e ainda é"
                     ]
             },
             {
                 texto: "Alternativa 2 da pergunta 2",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "Simboliza a essência da cultura popular, atuando como um pilar fundamental na construção da identidade de um povo."
                     ]
             }
         ]
