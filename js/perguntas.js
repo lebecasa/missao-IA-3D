@@ -1,18 +1,20 @@
-const perguntas = [
+export const perguntas = [
     {
         enunciado: "O que são mitos?",
         alternativas: [
             {
                 texto: "é uma narrativa fantástica que possui o objetivo de explicar a origem de tudo aquilo que existe e é considerado importante para um determinado povo.",
                 afirmacao: [
-                    "de fato povos tradicionais costumavam criar os ditos mitos para explicar tais acontecimentos “inexplicáveis”, pois naqueles tempos a ciência não era um método utilizado frequentemente."
-                    ]
+                    "De fato povos tradicionais costumavam criar os ditos mitos para explicar tais acontecimentos 'inexplicáveis', pois naqueles tempos a ciência não era um método utilizado frequentemente.",
+                    ],
+                proxima: 1,
             },
             {
-                texto: "são estados mentais em que se assume que algo é verdadeiro ou provável. Elas são expressas linguisticamente por meio de afirmações.",
+                texto: "São estados mentais em que se assume que algo é verdadeiro ou provável. Elas são expressas linguisticamentepor meio de afirmações.",
                 afirmacao: [
-                    "errado essa é a definição de crença."
-                    ]
+                    "Errado, essa é a definição de crença.",
+                    ],
+                proxima: 2,
             }           
             
         ]
@@ -23,31 +25,33 @@ const perguntas = [
             {
                 texto:"é um meio de aproximação entre os povos e grupos sociais e de afirmação de sua identidade cultural.",
                 afirmacao: [
-                    "Apesar de não ser uma resposta completamente errada, é bom lembrar de que o folclore foi e ainda é"
+                    "",
                     ]
+                proxima: 3;
             },
             {
-                texto: "Alternativa 2 da pergunta 2",
+                texto: "Simboliza a essência da cultura popular, atuando como um pilar fundamental na construção da identidade de um povo.",
                 afirmacao: [
-                    "Simboliza a essência da cultura popular, atuando como um pilar fundamental na construção da identidade de um povo."
+                    "",
                     ]
+                proxima: 4;
             }
         ]
     },
     {
-        enunciado: "Pergunta 3",
+        enunciado: "você apoia racismo?",
         alternativas: [
             {
-                texto:"Alternativa 1 da pergunta 3",
+                texto:"sim, eu apoio o movimento racista",
                 afirmacao: [
-                    "afirmacao 1",
+                    "você realmente já ouviu  falar o que é o racismo?  A sua história e quantas milhares de pessoa foram prejudicadas e mortas? ",
                     "afirmacao 2"
                     ]
             },
             {
-                texto:"Alternativa 2 da pergunta 3",
+                texto:"Não, sou contra o movimento racista",
                 afirmacao: [
-                    "afirmacao 1",
+                    "que legal! concordamos que o racismo não é uma coisa boa ",
                     "afirmacao 2"
                     ]
             }
