@@ -14,7 +14,7 @@ export const perguntas = [
                 afirmacao: [
                     "Apesar de em algum lugar isso fazer algum sentido, na verdade essa é a definição de uma crença, não de um mito.",
                     ],
-                proxima: 2,
+                proxima: 1,
             }           
             
         ]
@@ -27,14 +27,14 @@ export const perguntas = [
                 afirmacao: [
                     "Apesar de não ser uma resposta completamente errada, é bom lembrar de que o folclore foi e ainda é um dos pilares sociais de como toda a sociedade se formou, com milhares crescendo ouvindo tais mitos, talvez manter uma mente mais aberta da próxima aberta?",
                     ],
-                proxima: 3,
+                proxima: 2,
             },
             {
                 texto: "Simboliza a essência da cultura popular, atuando como um pilar fundamental na construção da identidade de um povo.",
                 afirmacao: [
                     "Bom, a forma resumida da resposta é essa ao menos, a forma longa? Apenas pense da forma que você cresceu ouvindo histórias.",
                    ],
-                proxima: 4,
+                proxima: 2,
             }
         ]
     },
@@ -46,7 +46,7 @@ export const perguntas = [
                 afirmacao: [
                     "Muitas coisas se perdem no fluxo do tempo da história sendo assim, continuar contando e escutando essas histórias de muitas formas serve para que essas culturas não sejam esquecidas e que no futuro as pessoas possam compreender o meio de vida dos antepassados. ",
                     ],
-                proxima: 4,
+                proxima: 3,
             },
             {
                 texto:"Contar como um aviso para crianças mais novas se comportarem.",
@@ -73,7 +73,7 @@ export const perguntas = [
                 afirmacao: [
                     "Sim, a maioria dos mitos surge para explicar todas as coisas que a natureza faz, desde o surgimento dos oceanos até o para onde vamos após a morte, normalmente esses mitos colocam um divindade, um ser superior a nós humanos, que nos julga e realiza as punições com base em nossas ações.",
                     ],
-                proxima: 0,
+                proxima: 4,
             }
         ]
     },
@@ -85,14 +85,14 @@ export const perguntas = [
                 afirmacao: [
                     "A resposta é correta mas apenas meio, não tem como dizer com certeza se sim ou não essas histórias puramente usadas como um meio de controle pois isso dependeria de quem as conta, num passado de fato elas eram um meio de colocar medo nas pessoas para impedi-las de cometerem 'pecados' mas muitas vezes elas serviam apenas como uma explicação de uma ação impossível para acalmar a mente das pessoas, criar um ser divino e superior ao humano é um meio ortodoxo de garantir para um povo leigo que não estamos sozinhos na imensidão do universo e que em algum momento nos encontraríamos com esses seres",
                     ],
-                proxima: 1,
+                proxima: 0,
             },
             {
                 texto: "Não",
                 afirmacao: [
                     "Essa resposta não é errada, mas ela definitivamente vai para um lado mais oposto a correta, os mitos e histórias, para um povo no passado uma religião, agiram sim como um meio de controle populacional pois proporcionava que o povo agisse de certa maneira e evitasse certos atos, tópicos e pensamentos com o medo da punição divina que vinha com isso",
                     ],
-                    proxima: 2,
+                    proxima: 0,
             }
         ]
     },
